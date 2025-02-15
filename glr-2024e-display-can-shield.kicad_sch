@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN-Shield for STM32F469I-DISCO")
-		(date "2025-01-27")
+		(date "2025-02-15")
 		(rev "v3")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
@@ -2824,6 +2824,175 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:LF80CDT-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LF80CDT-TR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LF80CDTTR"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators 8.0V 0.5A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.63"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-LF80CDT-TR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF80CDT-TR?qs=jjdktuRV%2FggWfgmU%252Bn%252BoRA%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LF80CDT-TR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LF80CDT-TR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3241,6 +3410,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 78.74) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01049069-856d-4ad1-9c1a-bddea23da5d1")
+	)
+	(wire
+		(pts
 			(xy 88.9 114.3) (xy 88.9 137.16)
 		)
 		(stroke
@@ -3411,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a254579-9b95-4c99-8303-778e8a7fe3f8")
+	)
+	(wire
+		(pts
 			(xy 104.14 88.9) (xy 107.95 88.9)
 		)
 		(stroke
@@ -3428,6 +3617,16 @@
 			(type default)
 		)
 		(uuid "83f18132-2fd5-4f84-9ba6-ecbff3cb3de2")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849294f9-458c-498f-a67c-504fbba7b1d2")
 	)
 	(wire
 		(pts
@@ -3501,6 +3700,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a537a4-5cd0-43d6-974b-a4957f50e031")
+	)
+	(wire
+		(pts
 			(xy 190.5 110.49) (xy 223.52 110.49)
 		)
 		(stroke
@@ -3521,23 +3730,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 102.87) (xy 223.52 102.87)
+			(xy 212.09 78.74) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a33b6065-cd47-42fd-bf9c-8a2f9081e6ab")
-	)
-	(wire
-		(pts
-			(xy 208.28 102.87) (xy 212.09 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4087145-ded8-4454-8293-ceb96e453e80")
 	)
 	(wire
 		(pts
@@ -3558,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "ac833988-dca0-4dbb-9dcf-3ef08dbb7a2a")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8f6264-51e3-4f7d-bb91-ce037344a0f1")
 	)
 	(wire
 		(pts
@@ -3808,6 +4017,26 @@
 			(justify left bottom)
 		)
 		(uuid "40774f13-7308-4294-a02a-d9d82c5366fa")
+	)
+	(label "+12V"
+		(at 217.17 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7184703f-ad3b-45c5-83c1-21241a6155e9")
+	)
+	(label "+12V"
+		(at 195.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809a7c90-db30-40d3-9ccb-6a92d00a9d2c")
 	)
 	(label "Tx"
 		(at 77.47 134.62 0)
@@ -4075,7 +4304,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Filled")
-		(at 215.9 102.87 0)
+		(at 208.28 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4084,7 +4313,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e57b254-9f08-4bfe-9747-3d47958465aa")
 		(property "Reference" "D1"
-			(at 215.9 96.52 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4321,7 @@
 			)
 		)
 		(property "Value" "D_Filled"
-			(at 215.9 99.06 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4329,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
-			(at 215.9 102.87 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 102.87 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4347,7 @@
 			)
 		)
 		(property "Description" "Diode, filled shape"
-			(at 215.9 102.87 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4356,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 215.9 102.87 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4365,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 102.87 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,6 +4383,130 @@
 			(project ""
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LF80CDT-TR")
+		(at 160.02 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eebabe1-2d2e-4981-a20b-e71700d2dff3")
+		(property "Reference" "IC2"
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LF80CDT-TR"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LF80CDTTR"
+			(at 186.69 -13.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf"
+			(at 186.69 -113.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 8.0V 0.5A Positive"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.63"
+			(at 186.69 -313.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-LF80CDT-TR"
+			(at 186.69 -413.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF80CDT-TR?qs=jjdktuRV%2FggWfgmU%252Bn%252BoRA%3D%3D"
+			(at 186.69 -513.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 186.69 -613.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LF80CDT-TR"
+			(at 186.69 -713.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "64646184-4a2b-4680-9832-408db1e1b8a2")
+		)
+		(pin "2"
+			(uuid "3eeda865-493e-48e7-83ed-dfad87731bcb")
+		)
+		(pin "1"
+			(uuid "1a6cdf2f-6c52-4812-9a36-d583fdc55951")
+		)
+		(instances
+			(project ""
+				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4996,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 208.28 102.87 90)
+		(at 195.58 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4652,7 +5005,7 @@
 		(fields_autoplaced yes)
 		(uuid "69ce9ae3-c688-402f-ba65-3b43ec44cb2b")
 		(property "Reference" "#PWR06"
-			(at 212.09 102.87 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,8 +5013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V to +9V"
-			(at 204.47 102.8701 90)
+		(property "Value" "+8V"
+			(at 199.39 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +5023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 102.87 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +5032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 102.87 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +5041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 208.28 102.87 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,6 +5328,72 @@
 			(project "glr-2024e-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 157.48 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a579c9d5-23ff-49df-a21a-7c5940e4d947")
+		(property "Reference" "#PWR02"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 81.2801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ff82cbd-2d0e-4c24-b2d3-7ed3f37abf00")
+		)
+		(instances
+			(project "glr-2024e-display-can-shield"
+				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V to +9V"
+		(property "Value" "+8V"
 			(at 83.82 63.4999 90)
 			(effects
 				(font
