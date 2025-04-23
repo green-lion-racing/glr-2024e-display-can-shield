@@ -1488,7 +1488,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f66975a3-25dd-4a97-9af4-d2836c09bcf0")
+			(uuid "6857123e-94da-4a45-8fd2-eb7ea738e6b0")
 		)
 		(fp_line
 			(start 0 -4.438244)
@@ -1498,7 +1498,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8bfbd99a-6c29-4e0f-9c00-18044499f782")
+			(uuid "7b9d299f-57a1-4cf0-a948-a94dbbba1851")
 		)
 		(fp_line
 			(start 0 -4.438244)
@@ -1508,7 +1508,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e3b6125c-026d-42d6-aad8-2560a9d783b0")
+			(uuid "2423b304-9aff-491a-b1ab-19745746b224")
 		)
 		(fp_line
 			(start 40 -4.438244)
@@ -1518,12 +1518,12 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69b3df73-b1cc-4942-86fb-96934f64ee26")
+			(uuid "a2c8d321-adb4-4403-b673-1cbaec9edbc5")
 		)
 		(pad "1" thru_hole rect
 			(at 2.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "/button1")
@@ -1534,7 +1534,7 @@
 		(pad "2" thru_hole circle
 			(at 7.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "+5V")
@@ -1545,7 +1545,7 @@
 		(pad "3" thru_hole circle
 			(at 12.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "/button2")
@@ -1556,7 +1556,7 @@
 		(pad "4" thru_hole circle
 			(at 17.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "+5V")
@@ -1567,7 +1567,7 @@
 		(pad "5" thru_hole circle
 			(at 22.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "/button3")
@@ -1578,7 +1578,7 @@
 		(pad "6" thru_hole circle
 			(at 27.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "+5V")
@@ -1589,7 +1589,7 @@
 		(pad "7" thru_hole circle
 			(at 32.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "/button4")
@@ -1600,7 +1600,7 @@
 		(pad "8" thru_hole circle
 			(at 37.5 -0.438 270)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "+5V")
@@ -1609,7 +1609,7 @@
 			(uuid "b550b7d6-3970-4855-abd6-4f8a72ad83a2")
 		)
 		(embedded_fonts no)
-		(model "C:/GitHub/glr-kicad-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-08.STEP"
+		(model "C:/GitHub/glr-KiCAD-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-08.STEP"
 			(offset
 				(xyz 0 0.875 3.25)
 			)
@@ -2809,7 +2809,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2214b718-076d-426f-b91b-f285c86fbc3e")
+			(uuid "a5cc18c8-0a96-48a7-bbb1-e1bdac272111")
 		)
 		(fp_line
 			(start -3.561756 20)
@@ -2819,7 +2819,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26647c67-21b4-4db1-90f1-01bddca5c30a")
+			(uuid "bfc06eda-bb8f-41a3-9fb6-5f92adcf46ed")
 		)
 		(fp_line
 			(start -3.561756 20)
@@ -2829,7 +2829,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "501dbc14-624f-417f-92d8-db1b76979a2c")
+			(uuid "60136030-3af4-4f8f-b73e-d0218a12975a")
 		)
 		(fp_line
 			(start -3.561756 0)
@@ -2839,12 +2839,12 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7a93aac0-6829-4389-ada3-aac3dc85d392")
+			(uuid "03bdabe3-0a34-4510-b3e8-47b051316a3e")
 		)
 		(pad "1" thru_hole rect
 			(at 0.438 17.5 180)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 34 "/+12V")
@@ -2855,7 +2855,7 @@
 		(pad "2" thru_hole circle
 			(at 0.438 12.5 180)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -2866,7 +2866,7 @@
 		(pad "3" thru_hole circle
 			(at 0.438 7.5 180)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/CAN H")
@@ -2877,7 +2877,7 @@
 		(pad "4" thru_hole circle
 			(at 0.438 2.5 180)
 			(size 2 2)
-			(drill 1)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "/CAN L")
@@ -2886,7 +2886,7 @@
 			(uuid "fe008de8-cc85-4ab4-8ac3-a5b71867a8ad")
 		)
 		(embedded_fonts no)
-		(model "C:/GitHub/glr-kicad-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-04.STEP"
+		(model "C:/GitHub/glr-KiCAD-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-04.STEP"
 			(offset
 				(xyz 0 -20 3.25)
 			)
