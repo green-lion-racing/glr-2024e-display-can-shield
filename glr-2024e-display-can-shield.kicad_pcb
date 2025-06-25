@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN-Shield for STM32F469I-DISCO")
-		(date "2025-03-08")
+		(date "${CURRENT_DATE}")
 		(rev "v3")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
@@ -116,7 +116,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
